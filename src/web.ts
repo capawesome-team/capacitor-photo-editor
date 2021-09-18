@@ -1,10 +1,9 @@
 import { WebPlugin } from '@capacitor/core';
 
-import type { PhotoEditorPlugin } from './definitions';
+import type { EditPhotoOptions, PhotoEditorPlugin } from './definitions';
 
 export class PhotoEditorWeb extends WebPlugin implements PhotoEditorPlugin {
-  async echo(options: { value: string }): Promise<{ value: string }> {
-    console.log('ECHO', options);
-    return options;
+  async editPhoto(options: EditPhotoOptions): Promise<void> {
+    throw new Error('Not available on web.');
   }
 }
