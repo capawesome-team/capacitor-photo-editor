@@ -9,10 +9,7 @@ import Capacitor
 public class PhotoEditorPlugin: CAPPlugin {
     private let implementation = PhotoEditor()
 
-    @objc func echo(_ call: CAPPluginCall) {
-        let value = call.getString("value") ?? ""
-        call.resolve([
-            "value": implementation.echo(value)
-        ])
+    @objc func editPhoto(_ call: CAPPluginCall) {
+        call.reject("Not available on iOS.")
     }
 }
