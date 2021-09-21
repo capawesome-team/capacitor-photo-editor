@@ -1,9 +1,7 @@
 package dev.robingenz.capacitorjs.plugins.photoeditor;
 
 import android.content.Intent;
-
 import androidx.activity.result.ActivityResult;
-
 import com.getcapacitor.Plugin;
 import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
