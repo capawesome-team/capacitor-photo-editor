@@ -68,6 +68,8 @@ editPhoto(options: EditPhotoOptions) => Promise<void>
 
 Edit a photo at a given path.
 
+Only available for Android.
+
 | Param         | Type                                                          |
 | ------------- | ------------------------------------------------------------- |
 | **`options`** | <code><a href="#editphotooptions">EditPhotoOptions</a></code> |
