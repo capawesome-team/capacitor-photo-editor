@@ -9,6 +9,7 @@ import androidx.core.content.FileProvider;
 import com.getcapacitor.Bridge;
 import com.getcapacitor.Logger;
 import java.io.File;
+import java.net.URI;
 import java.util.List;
 
 public class PhotoEditor {
@@ -21,7 +22,7 @@ public class PhotoEditor {
 
     public Intent createEditPhotoIntent(String path) {
         try {
-            File file = new File(path);
+            File file = new File(new URI(path));
             String contextPackageName = bridge.getContext().getPackageName();
             Uri uri = FileProvider.getUriForFile(bridge.getActivity(), contextPackageName + ".fileprovider", file);
             Intent intent = new Intent(Intent.ACTION_EDIT);
