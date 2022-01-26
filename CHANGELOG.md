@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/robingenz/capacitor-photo-editor/compare/v0.0.2...v0.0.3) (2022-01-26)
+
+
+### Bug Fixes
+
+* inline source code in esm map files ([3fcd527](https://github.com/robingenz/capacitor-photo-editor/commit/3fcd527a54c18cdce6b7966ad9a62d49f5d87733))
+
 ### [0.0.2](https://github.com/robingenz/capacitor-photo-editor/compare/v0.0.1...v0.0.2) (2021-10-02)
 
 
