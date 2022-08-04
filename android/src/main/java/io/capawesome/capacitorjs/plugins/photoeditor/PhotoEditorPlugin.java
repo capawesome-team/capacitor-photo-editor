@@ -1,4 +1,4 @@
-package dev.robingenz.capacitorjs.plugins.photoeditor;
+package io.capawesome.capacitorjs.plugins.photoeditor;
 
 import android.app.Activity;
 import android.content.Intent;
